@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery References</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#btnClick').click(function(){
+                    $('#my-para').css('background', 'red');
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <p id="my-para">
+            First jQuery
+        </p>
+        <button id="btnClick">
+            Click Me
+        </button>
+    </body>
+</html>
